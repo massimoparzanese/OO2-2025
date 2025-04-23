@@ -2,8 +2,8 @@ package ar.edu.info.unlp.ejercicioDemo;
 
 public class Initial implements State{
 
-    public String operar(Calculadora c, double unValor) {
-        return String.valueOf(unValor);
+    public void operar(Calculadora c, double unValor) {
+        c.setValorAcumulado(Double.toString(unValor));
     }
 
 

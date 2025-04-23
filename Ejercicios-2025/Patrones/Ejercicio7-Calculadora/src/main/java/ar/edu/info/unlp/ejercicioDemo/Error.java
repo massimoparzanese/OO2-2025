@@ -2,8 +2,8 @@ package ar.edu.info.unlp.ejercicioDemo;
 
 public class Error implements State{
 
-    public String operar(Calculadora c, double unValor) {
-        return "Error";
+    public void operar(Calculadora c, double unValor) {
+        c.setValorAcumulado("Error");
     }
 
 

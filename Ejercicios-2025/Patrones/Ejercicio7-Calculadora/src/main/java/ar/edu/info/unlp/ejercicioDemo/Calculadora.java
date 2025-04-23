@@ -16,9 +16,10 @@ public void borrar(){
  }
 
  public void setValor(double unValor){
-     String aux = this.state.operar(this, unValor);
-     this.valorAcumulado = aux.equals("Error") ? this.valorAcumulado : aux;
-
+     this.state.operar(this, unValor);
+ }
+ public void setValorAcumulado(String unValor){
+     this.valorAcumulado = unValor;
  }
  public void mas(){
      this.state.mas(this);
