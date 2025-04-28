@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="https://gaphor.org/model" xmlns:Core="https://gaphor.org/modelinglanguage/Core" xmlns:UML="https://gaphor.org/modelinglanguage/UML" version="4" gaphor-version="3.0.0">
+<model>
+<Core:StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<UML:Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>New model</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+<ref refid="7addd4b5-214c-11f0-abf0-1bb5ffb8af29"/>
+<ref refid="392b163e-214e-11f0-90f9-1bb5ffb8af29"/>
+</reflist>
+</ownedType>
+<packagedElement>
+<reflist>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+<ref refid="7addd4b5-214c-11f0-abf0-1bb5ffb8af29"/>
+<ref refid="392b163e-214e-11f0-90f9-1bb5ffb8af29"/>
+</reflist>
+</packagedElement>
+</UML:Package>
+<UML:Diagram id="58d6c536-66f8-11ec-b4c8-0456e5e540ed">
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>New Diagram</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="0df0fcc8-214c-11f0-8815-1bb5ffb8af29"/>
+<ref refid="3496eda1-214c-11f0-9731-1bb5ffb8af29"/>
+<ref refid="698a3655-214c-11f0-82f7-1bb5ffb8af29"/>
+<ref refid="6def2710-214c-11f0-8aae-1bb5ffb8af29"/>
+<ref refid="732063ab-214c-11f0-bc38-1bb5ffb8af29"/>
+<ref refid="76734402-214c-11f0-8500-1bb5ffb8af29"/>
+<ref refid="7a2b5abe-214c-11f0-b8aa-1bb5ffb8af29"/>
+<ref refid="3884e864-214e-11f0-9baf-1bb5ffb8af29"/>
+</reflist>
+</ownedPresentation>
+</UML:Diagram>
+<UML:Class id="0def89a7-214c-11f0-8f09-1bb5ffb8af29">
+<name>
+<val>FileSystem</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="7adf0a87-214c-11f0-9d8a-1bb5ffb8af29"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="5137e1fd-214e-11f0-9a8d-1bb5ffb8af29"/>
+<ref refid="5710ef98-214e-11f0-b447-1bb5ffb8af29"/>
+<ref refid="64a3a585-214e-11f0-9e6d-1bb5ffb8af29"/>
+<ref refid="7481dd2e-214e-11f0-a626-1bb5ffb8af29"/>
+<ref refid="82702dbe-214e-11f0-9010-1bb5ffb8af29"/>
+<ref refid="889e29c2-214e-11f0-9658-1bb5ffb8af29"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="0df0fcc8-214c-11f0-8815-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="0df0fcc8-214c-11f0-8815-1bb5ffb8af29">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 188.58026123046875, 284.44512939453125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>304.0</val>
+</width>
+<height>
+<val>159.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="3495d952-214c-11f0-8592-1bb5ffb8af29">
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>Element</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="39e768db-214c-11f0-aaa1-1bb5ffb8af29"/>
+<ref refid="41bdc6ae-214c-11f0-903b-1bb5ffb8af29"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="523385be-214c-11f0-bffb-1bb5ffb8af29"/>
+<ref refid="a604903a-214c-11f0-bb09-1bb5ffb8af29"/>
+<ref refid="bde3bcbe-214c-11f0-ad19-1bb5ffb8af29"/>
+<ref refid="d9c863e8-214c-11f0-899e-1bb5ffb8af29"/>
+<ref refid="f99eb530-214c-11f0-a3c6-1bb5ffb8af29"/>
+<ref refid="6d52d7bc-214d-11f0-b03a-1bb5ffb8af29"/>
+<ref refid="7382e5cd-214d-11f0-a4e9-1bb5ffb8af29"/>
+<ref refid="9fc73490-214e-11f0-9cc6-1bb5ffb8af29"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="3496eda1-214c-11f0-9731-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+<specialization>
+<reflist>
+<ref refid="73f1d5f9-214c-11f0-bba2-1bb5ffb8af29"/>
+<ref refid="77222dcb-214c-11f0-a70b-1bb5ffb8af29"/>
+</reflist>
+</specialization>
+</UML:Class>
+<UML:ClassItem id="3496eda1-214c-11f0-9731-1bb5ffb8af29">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 643.0748291015625, 241.31338500976562)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>305.0</val>
+</width>
+<height>
+<val>227.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</subject>
+</UML:ClassItem>
+<UML:Property id="39e768db-214c-11f0-aaa1-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>- name: String;</val>
+</name>
+</UML:Property>
+<UML:Property id="41bdc6ae-214c-11f0-903b-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>- creationDate: LocalDate;</val>
+</name>
+</UML:Property>
+<UML:Operation id="523385be-214c-11f0-bffb-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ tamanioTotal(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Class id="6987ed38-214c-11f0-ab06-1bb5ffb8af29">
+<generalization>
+<reflist>
+<ref refid="73f1d5f9-214c-11f0-bba2-1bb5ffb8af29"/>
+</reflist>
+</generalization>
+<name>
+<val>File</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="1479809d-214d-11f0-b1fd-1bb5ffb8af29"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="31ba2dc9-214d-11f0-8ce1-1bb5ffb8af29"/>
+<ref refid="ef49c886-214d-11f0-aeb4-1bb5ffb8af29"/>
+<ref refid="000d47dc-214e-11f0-b20f-1bb5ffb8af29"/>
+<ref refid="1e084059-214e-11f0-8e66-1bb5ffb8af29"/>
+<ref refid="248ce9ed-214e-11f0-aa04-1bb5ffb8af29"/>
+<ref refid="b72f06e7-214e-11f0-81ed-1bb5ffb8af29"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="698a3655-214c-11f0-82f7-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="698a3655-214c-11f0-82f7-1bb5ffb8af29">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 256.64684606481484, 526.8084947180081)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>531.0</val>
+</width>
+<height>
+<val>176.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="6dee4d75-214c-11f0-afbe-1bb5ffb8af29">
+<generalization>
+<reflist>
+<ref refid="77222dcb-214c-11f0-a70b-1bb5ffb8af29"/>
+</reflist>
+</generalization>
+<name>
+<val>Directory</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="392c0399-214e-11f0-bfd4-1bb5ffb8af29"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="62a879bf-214d-11f0-9353-1bb5ffb8af29"/>
+<ref refid="8024dbb7-214d-11f0-bde2-1bb5ffb8af29"/>
+<ref refid="85c4c36f-214d-11f0-821d-1bb5ffb8af29"/>
+<ref refid="b41202d7-214d-11f0-a6dc-1bb5ffb8af29"/>
+<ref refid="ce590ca5-214d-11f0-8d83-1bb5ffb8af29"/>
+<ref refid="db6fb757-214d-11f0-b2fd-1bb5ffb8af29"/>
+<ref refid="ae16cc46-214e-11f0-a97f-1bb5ffb8af29"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="6def2710-214c-11f0-8aae-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="6def2710-214c-11f0-8aae-1bb5ffb8af29">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 849.4082852587287, 518.308494718008)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>465.0</val>
+</width>
+<height>
+<val>176.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</subject>
+</UML:ClassItem>
+<UML:GeneralizationItem id="732063ab-214c-11f0-bc38-1bb5ffb8af29">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="73f1d5f9-214c-11f0-bba2-1bb5ffb8af29"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 735.9853740356956, 359.8616943359375)</val>
+</matrix>
+<points>
+<val>[(-186.5512080245917, 166.9468003820706), (-42.9105449341331, 108.45169067382812)]</val>
+</points>
+<head-connection>
+<ref refid="698a3655-214c-11f0-82f7-1bb5ffb8af29"/>
+</head-connection>
+<tail-connection>
+<ref refid="3496eda1-214c-11f0-9731-1bb5ffb8af29"/>
+</tail-connection>
+</UML:GeneralizationItem>
+<UML:Generalization id="73f1d5f9-214c-11f0-bba2-1bb5ffb8af29">
+<general>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="732063ab-214c-11f0-bc38-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</specific>
+</UML:Generalization>
+<UML:GeneralizationItem id="76734402-214c-11f0-8500-1bb5ffb8af29">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="77222dcb-214c-11f0-a70b-1bb5ffb8af29"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 824.0783916138206, 357.48309326171875)</val>
+</matrix>
+<points>
+<val>[(218.84584213123628, 160.82540145628923), (70.20218928475936, 110.83029174804688)]</val>
+</points>
+<head-connection>
+<ref refid="6def2710-214c-11f0-8aae-1bb5ffb8af29"/>
+</head-connection>
+<tail-connection>
+<ref refid="3496eda1-214c-11f0-9731-1bb5ffb8af29"/>
+</tail-connection>
+</UML:GeneralizationItem>
+<UML:Generalization id="77222dcb-214c-11f0-a70b-1bb5ffb8af29">
+<general>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</general>
+<presentation>
+<reflist>
+<ref refid="76734402-214c-11f0-8500-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+<specific>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</specific>
+</UML:Generalization>
+<UML:AssociationItem id="7a2b5abe-214c-11f0-b8aa-1bb5ffb8af29">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<head_subject>
+<ref refid="7aded548-214c-11f0-a224-1bb5ffb8af29"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="7addd4b5-214c-11f0-abf0-1bb5ffb8af29"/>
+</subject>
+<tail_subject>
+<ref refid="7adf0a87-214c-11f0-9d8a-1bb5ffb8af29"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 548.05968433843, 286.37371826171875)</val>
+</matrix>
+<points>
+<val>[(-55.479423107961225, 84.7133933619449), (95.01514476313253, 34.98339202187276)]</val>
+</points>
+<head-connection>
+<ref refid="0df0fcc8-214c-11f0-8815-1bb5ffb8af29"/>
+</head-connection>
+<tail-connection>
+<ref refid="3496eda1-214c-11f0-9731-1bb5ffb8af29"/>
+</tail-connection>
+</UML:AssociationItem>
+<UML:Association id="7addd4b5-214c-11f0-abf0-1bb5ffb8af29">
+<memberEnd>
+<reflist>
+<ref refid="7aded548-214c-11f0-a224-1bb5ffb8af29"/>
+<ref refid="7adf0a87-214c-11f0-9d8a-1bb5ffb8af29"/>
+</reflist>
+</memberEnd>
+<name>
+<val>elements 0..*</val>
+</name>
+<ownedEnd>
+<reflist>
+<ref refid="7aded548-214c-11f0-a224-1bb5ffb8af29"/>
+</reflist>
+</ownedEnd>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="7a2b5abe-214c-11f0-b8aa-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+</UML:Association>
+<UML:Property id="7aded548-214c-11f0-a224-1bb5ffb8af29">
+<association>
+<ref refid="7addd4b5-214c-11f0-abf0-1bb5ffb8af29"/>
+</association>
+<owningAssociation>
+<ref refid="7addd4b5-214c-11f0-abf0-1bb5ffb8af29"/>
+</owningAssociation>
+<type>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</type>
+</UML:Property>
+<UML:Property id="7adf0a87-214c-11f0-9d8a-1bb5ffb8af29">
+<association>
+<ref refid="7addd4b5-214c-11f0-abf0-1bb5ffb8af29"/>
+</association>
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<type>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</type>
+</UML:Property>
+<UML:Operation id="a604903a-214c-11f0-bb09-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>+ buscarMasGrande(): File;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="bde3bcbe-214c-11f0-ad19-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>+ buscarTodos(name: String): Element[*];</val>
+</name>
+</UML:Operation>
+<UML:Operation id="d9c863e8-214c-11f0-899e-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ listContent(): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="f99eb530-214c-11f0-a3c6-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ compareName(name: String): Boolean;</val>
+</name>
+</UML:Operation>
+<UML:Property id="1479809d-214d-11f0-b1fd-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>- size: Real;</val>
+</name>
+</UML:Property>
+<UML:Operation id="31ba2dc9-214d-11f0-8ce1-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ &lt;&lt;create&gt;&gt; File(name: String, creatD: LocalDate, size: Real): Element;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="62a879bf-214d-11f0-9353-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ &lt;&lt;create&gt;&gt; Directory(n: String, creatD: LocalDate): Element;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="6d52d7bc-214d-11f0-b03a-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>+ add(elem: Element): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="7382e5cd-214d-11f0-a4e9-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>+ remove(elem: Element): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="8024dbb7-214d-11f0-bde2-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ add(elem: Element): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="85c4c36f-214d-11f0-821d-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ remove(elem: Element): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="b41202d7-214d-11f0-a6dc-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscarMasGrande(): File;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="ce590ca5-214d-11f0-8d83-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscarTodos(name: String): Element[*];;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="db6fb757-214d-11f0-b2fd-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>- buscarT(name: String, elem: Element[*]): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="ef49c886-214d-11f0-aeb4-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscarMasGrande(): File;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="000d47dc-214e-11f0-b20f-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscarTodos(in name: String): Element[*];</val>
+</name>
+</UML:Operation>
+<UML:Operation id="1e084059-214e-11f0-8e66-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ listContent(): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="248ce9ed-214e-11f0-aa04-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ compareName(name: String): boolean;</val>
+</name>
+</UML:Operation>
+<UML:AssociationItem id="3884e864-214e-11f0-9baf-1bb5ffb8af29">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<head_subject>
+<ref refid="392be237-214e-11f0-8cf0-1bb5ffb8af29"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="392b163e-214e-11f0-90f9-1bb5ffb8af29"/>
+</subject>
+<tail_subject>
+<ref refid="392c0399-214e-11f0-bfd4-1bb5ffb8af29"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1105.4884033203125, 480.2468032000795)</val>
+</matrix>
+<points>
+<val>[(4.959859965759961, 38.061691517928466), (0.0, -171.72537231445312), (-157.41357421875, -174.61675152364722)]</val>
+</points>
+<head-connection>
+<ref refid="6def2710-214c-11f0-8aae-1bb5ffb8af29"/>
+</head-connection>
+<tail-connection>
+<ref refid="3496eda1-214c-11f0-9731-1bb5ffb8af29"/>
+</tail-connection>
+</UML:AssociationItem>
+<UML:Association id="392b163e-214e-11f0-90f9-1bb5ffb8af29">
+<memberEnd>
+<reflist>
+<ref refid="392be237-214e-11f0-8cf0-1bb5ffb8af29"/>
+<ref refid="392c0399-214e-11f0-bfd4-1bb5ffb8af29"/>
+</reflist>
+</memberEnd>
+<name>
+<val>elements 0..*</val>
+</name>
+<ownedEnd>
+<reflist>
+<ref refid="392be237-214e-11f0-8cf0-1bb5ffb8af29"/>
+</reflist>
+</ownedEnd>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="3884e864-214e-11f0-9baf-1bb5ffb8af29"/>
+</reflist>
+</presentation>
+</UML:Association>
+<UML:Property id="392be237-214e-11f0-8cf0-1bb5ffb8af29">
+<association>
+<ref refid="392b163e-214e-11f0-90f9-1bb5ffb8af29"/>
+</association>
+<owningAssociation>
+<ref refid="392b163e-214e-11f0-90f9-1bb5ffb8af29"/>
+</owningAssociation>
+<type>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</type>
+</UML:Property>
+<UML:Property id="392c0399-214e-11f0-bfd4-1bb5ffb8af29">
+<aggregation>
+<val>shared</val>
+</aggregation>
+<association>
+<ref refid="392b163e-214e-11f0-90f9-1bb5ffb8af29"/>
+</association>
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<type>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</type>
+</UML:Property>
+<UML:Operation id="5137e1fd-214e-11f0-9a8d-1bb5ffb8af29">
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ tamanioTotalOcupado(): Integer;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="5710ef98-214e-11f0-b447-1bb5ffb8af29">
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ archivoMasGrande(): File;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="64a3a585-214e-11f0-9e6d-1bb5ffb8af29">
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ archivoMasNuevo(): File;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="7481dd2e-214e-11f0-a626-1bb5ffb8af29">
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscar(in name: String): Element;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="82702dbe-214e-11f0-9010-1bb5ffb8af29">
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscarTodos(name: String): Element[*];</val>
+</name>
+</UML:Operation>
+<UML:Operation id="889e29c2-214e-11f0-9658-1bb5ffb8af29">
+<class_>
+<ref refid="0def89a7-214c-11f0-8f09-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ listarContenido(): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="9fc73490-214e-11f0-9cc6-1bb5ffb8af29">
+<class_>
+<ref refid="3495d952-214c-11f0-8592-1bb5ffb8af29"/>
+</class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>+ buscar(name: String): Element;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="ae16cc46-214e-11f0-a97f-1bb5ffb8af29">
+<class_>
+<ref refid="6dee4d75-214c-11f0-afbe-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscar(name: String): Element;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="b72f06e7-214e-11f0-81ed-1bb5ffb8af29">
+<class_>
+<ref refid="6987ed38-214c-11f0-ab06-1bb5ffb8af29"/>
+</class_>
+<name>
+<val>+ buscar(name: String): Element;</val>
+</name>
+</UML:Operation>
+</model>
+</gaphor>

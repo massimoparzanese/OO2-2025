@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="https://gaphor.org/model" xmlns:Core="https://gaphor.org/modelinglanguage/Core" xmlns:UML="https://gaphor.org/modelinglanguage/UML" version="4" gaphor-version="3.0.0">
+<model>
+<Core:StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<UML:Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>New model</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+<ref refid="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1"/>
+</reflist>
+</ownedType>
+<packagedElement>
+<reflist>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+<ref refid="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1"/>
+</reflist>
+</packagedElement>
+</UML:Package>
+<UML:Diagram id="58d6c536-66f8-11ec-b4c8-0456e5e540ed">
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>New Diagram</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1"/>
+<ref refid="f357a2de-2144-11f0-9405-b9dc35bae3f1"/>
+<ref refid="fa95f021-2144-11f0-9906-b9dc35bae3f1"/>
+<ref refid="fec4950d-2144-11f0-82a4-b9dc35bae3f1"/>
+<ref refid="0d3832df-2145-11f0-8d91-b9dc35bae3f1"/>
+<ref refid="12f055e0-2145-11f0-b7c6-b9dc35bae3f1"/>
+<ref refid="16c6628b-2145-11f0-8b81-b9dc35bae3f1"/>
+<ref refid="2cd7134f-2145-11f0-a967-b9dc35bae3f1"/>
+</reflist>
+</ownedPresentation>
+</UML:Diagram>
+<UML:Interface id="9e680f42-2144-11f0-8b4e-b9dc35bae3f1">
+<isAbstract>
+<val>1</val>
+</isAbstract>
+<name>
+<val>Topografia</val>
+</name>
+<ownedOperation>
+<reflist>
+<ref refid="779a98b7-2145-11f0-afc5-b9dc35bae3f1"/>
+<ref refid="8473f3c0-2145-11f0-a522-b9dc35bae3f1"/>
+<ref refid="a0c476b6-2145-11f0-85a7-b9dc35bae3f1"/>
+<ref refid="adc93c51-2145-11f0-bc44-b9dc35bae3f1"/>
+<ref refid="d00ec171-2145-11f0-a088-b9dc35bae3f1"/>
+<ref refid="fe2dfc3c-2146-11f0-9bc2-b9dc35bae3f1"/>
+<ref refid="0fe272bc-2147-11f0-ad59-b9dc35bae3f1"/>
+<ref refid="26509fb6-2147-11f0-8cbd-b9dc35bae3f1"/>
+<ref refid="3953d988-2147-11f0-8172-b9dc35bae3f1"/>
+<ref refid="f9339eb4-2147-11f0-b99e-b9dc35bae3f1"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+<supplierDependency>
+<reflist>
+<ref refid="0e4eefe8-2145-11f0-a667-b9dc35bae3f1"/>
+<ref refid="13adfc14-2145-11f0-bc15-b9dc35bae3f1"/>
+<ref refid="17ddafd2-2145-11f0-9cbe-b9dc35bae3f1"/>
+</reflist>
+</supplierDependency>
+</UML:Interface>
+<UML:InterfaceItem id="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 246.5355005678923, 56.978068928142164)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>353.0</val>
+</width>
+<height>
+<val>244.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</subject>
+<folded>
+<val>0</val>
+</folded>
+</UML:InterfaceItem>
+<UML:Class id="f3566c5d-2144-11f0-94ff-b9dc35bae3f1">
+<clientDependency>
+<reflist>
+<ref refid="0e4eefe8-2145-11f0-a667-b9dc35bae3f1"/>
+</reflist>
+</clientDependency>
+<name>
+<val>Agua</val>
+</name>
+<ownedOperation>
+<reflist>
+<ref refid="3018afcf-2146-11f0-9fbf-b9dc35bae3f1"/>
+<ref refid="3a9bd91e-2146-11f0-91cf-b9dc35bae3f1"/>
+<ref refid="461cf38a-2146-11f0-8d2d-b9dc35bae3f1"/>
+<ref refid="4a901a5e-2146-11f0-a393-b9dc35bae3f1"/>
+<ref refid="e8de5793-2146-11f0-951a-b9dc35bae3f1"/>
+<ref refid="4e707585-2147-11f0-b4bc-b9dc35bae3f1"/>
+<ref refid="5a119fb3-2147-11f0-9525-b9dc35bae3f1"/>
+<ref refid="642d9e78-2147-11f0-b894-b9dc35bae3f1"/>
+<ref refid="86793479-2147-11f0-9606-b9dc35bae3f1"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="f357a2de-2144-11f0-9405-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="f357a2de-2144-11f0-9405-b9dc35bae3f1">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -253.38791465247374, 358.9395446777344)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>340.0</val>
+</width>
+<height>
+<val>210.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1">
+<clientDependency>
+<reflist>
+<ref refid="13adfc14-2145-11f0-bc15-b9dc35bae3f1"/>
+</reflist>
+</clientDependency>
+<name>
+<val>Tierra</val>
+</name>
+<ownedOperation>
+<reflist>
+<ref refid="5c443191-2146-11f0-a3e0-b9dc35bae3f1"/>
+<ref refid="675dd1b2-2146-11f0-bb58-b9dc35bae3f1"/>
+<ref refid="72618e63-2146-11f0-af03-b9dc35bae3f1"/>
+<ref refid="81863966-2146-11f0-b2d0-b9dc35bae3f1"/>
+<ref refid="e4aa6cbe-2146-11f0-9b01-b9dc35bae3f1"/>
+<ref refid="7a96d01a-2147-11f0-b133-b9dc35bae3f1"/>
+<ref refid="a9697b8e-2147-11f0-92bc-b9dc35bae3f1"/>
+<ref refid="b17039d5-2147-11f0-bbeb-b9dc35bae3f1"/>
+<ref refid="b9a39a79-2147-11f0-acdc-b9dc35bae3f1"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="fa95f021-2144-11f0-9906-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="fa95f021-2144-11f0-9906-b9dc35bae3f1">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 168.66356488437896, 358.9395446777343)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>340.0</val>
+</width>
+<height>
+<val>210.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="fec34294-2144-11f0-a54d-b9dc35bae3f1">
+<clientDependency>
+<reflist>
+<ref refid="17ddafd2-2145-11f0-9cbe-b9dc35bae3f1"/>
+</reflist>
+</clientDependency>
+<name>
+<val>Mixta</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="2dc6d963-2145-11f0-8f63-b9dc35bae3f1"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="999464d1-2146-11f0-a503-b9dc35bae3f1"/>
+<ref refid="a213c84f-2146-11f0-bdd0-b9dc35bae3f1"/>
+<ref refid="b96bf603-2146-11f0-acb9-b9dc35bae3f1"/>
+<ref refid="be76f5ba-2146-11f0-8a70-b9dc35bae3f1"/>
+<ref refid="d9deeaea-2146-11f0-8e82-b9dc35bae3f1"/>
+<ref refid="c750f3d1-2147-11f0-ac18-b9dc35bae3f1"/>
+<ref refid="d1169144-2147-11f0-bfbb-b9dc35bae3f1"/>
+<ref refid="d9d06dc8-2147-11f0-af17-b9dc35bae3f1"/>
+<ref refid="e61606fc-2147-11f0-ab8d-b9dc35bae3f1"/>
+<ref refid="0290f652-2148-11f0-8c76-b9dc35bae3f1"/>
+<ref refid="282347ce-2148-11f0-940a-b9dc35bae3f1"/>
+</reflist>
+</ownedOperation>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="fec4950d-2144-11f0-82a4-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="fec4950d-2144-11f0-82a4-b9dc35bae3f1">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 538.046511342659, 341.9395446777344)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>777.0</val>
+</width>
+<height>
+<val>244.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</subject>
+</UML:ClassItem>
+<UML:InterfaceRealizationItem id="0d3832df-2145-11f0-8d91-b9dc35bae3f1">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="0e4eefe8-2145-11f0-a667-b9dc35bae3f1"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 283.5122375488281, 224.4260711669922)</val>
+</matrix>
+<points>
+<val>[(17.190297665803314, 76.55199776115), (-333.68535422766905, 134.51347351074224)]</val>
+</points>
+<head-connection>
+<ref refid="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1"/>
+</head-connection>
+<tail-connection>
+<ref refid="f357a2de-2144-11f0-9405-b9dc35bae3f1"/>
+</tail-connection>
+</UML:InterfaceRealizationItem>
+<UML:InterfaceRealization id="0e4eefe8-2145-11f0-a667-b9dc35bae3f1">
+<client>
+<reflist>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</reflist>
+</client>
+<presentation>
+<reflist>
+<ref refid="0d3832df-2145-11f0-8d91-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+<supplier>
+<reflist>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</reflist>
+</supplier>
+</UML:InterfaceRealization>
+<UML:InterfaceRealizationItem id="12f055e0-2145-11f0-b7c6-b9dc35bae3f1">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="13adfc14-2145-11f0-bc15-b9dc35bae3f1"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 314.74842370074737, 225.83921813964844)</val>
+</matrix>
+<points>
+<val>[(135.84188178858807, 75.13885078849376), (9.768176382075126, 133.10032653808588)]</val>
+</points>
+<head-connection>
+<ref refid="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1"/>
+</head-connection>
+<tail-connection>
+<ref refid="fa95f021-2144-11f0-9906-b9dc35bae3f1"/>
+</tail-connection>
+</UML:InterfaceRealizationItem>
+<UML:InterfaceRealization id="13adfc14-2145-11f0-bc15-b9dc35bae3f1">
+<client>
+<reflist>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</reflist>
+</client>
+<presentation>
+<reflist>
+<ref refid="12f055e0-2145-11f0-b7c6-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+<supplier>
+<reflist>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</reflist>
+</supplier>
+</UML:InterfaceRealization>
+<UML:InterfaceRealizationItem id="16c6628b-2145-11f0-8b81-b9dc35bae3f1">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="17ddafd2-2145-11f0-9cbe-b9dc35bae3f1"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 359.3927917480469, 224.85020446777344)</val>
+</matrix>
+<points>
+<val>[(232.4601307744565, 76.12786446036876), (397.5627042747884, 117.08934020996088)]</val>
+</points>
+<head-connection>
+<ref refid="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1"/>
+</head-connection>
+<tail-connection>
+<ref refid="fec4950d-2144-11f0-82a4-b9dc35bae3f1"/>
+</tail-connection>
+</UML:InterfaceRealizationItem>
+<UML:InterfaceRealization id="17ddafd2-2145-11f0-9cbe-b9dc35bae3f1">
+<client>
+<reflist>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</reflist>
+</client>
+<presentation>
+<reflist>
+<ref refid="16c6628b-2145-11f0-8b81-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+<supplier>
+<reflist>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</reflist>
+</supplier>
+</UML:InterfaceRealization>
+<UML:AssociationItem id="2cd7134f-2145-11f0-a967-b9dc35bae3f1">
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<head_subject>
+<ref refid="2dc69628-2145-11f0-b0f0-b9dc35bae3f1"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1"/>
+</subject>
+<tail_subject>
+<ref refid="2dc6d963-2145-11f0-8f63-b9dc35bae3f1"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 544.4306640625, 322.2718505859375)</val>
+</matrix>
+<points>
+<val>[(770.6158472801594, 37.38398341128698), (530.1089205912882, -143.29378165779536), (55.10483650539231, -164.12825297261332)]</val>
+</points>
+<head-connection>
+<ref refid="fec4950d-2144-11f0-82a4-b9dc35bae3f1"/>
+</head-connection>
+<tail-connection>
+<ref refid="9e69af1c-2144-11f0-8f5f-b9dc35bae3f1"/>
+</tail-connection>
+</UML:AssociationItem>
+<UML:Association id="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1">
+<memberEnd>
+<reflist>
+<ref refid="2dc69628-2145-11f0-b0f0-b9dc35bae3f1"/>
+<ref refid="2dc6d963-2145-11f0-8f63-b9dc35bae3f1"/>
+</reflist>
+</memberEnd>
+<name>
+<val>topografias 4</val>
+</name>
+<ownedEnd>
+<reflist>
+<ref refid="2dc69628-2145-11f0-b0f0-b9dc35bae3f1"/>
+</reflist>
+</ownedEnd>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="2cd7134f-2145-11f0-a967-b9dc35bae3f1"/>
+</reflist>
+</presentation>
+</UML:Association>
+<UML:Property id="2dc69628-2145-11f0-b0f0-b9dc35bae3f1">
+<association>
+<ref refid="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1"/>
+</association>
+<owningAssociation>
+<ref refid="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1"/>
+</owningAssociation>
+<type>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</type>
+</UML:Property>
+<UML:Property id="2dc6d963-2145-11f0-8f63-b9dc35bae3f1">
+<aggregation>
+<val>shared</val>
+</aggregation>
+<association>
+<ref refid="2dc5ddb6-2145-11f0-91ea-b9dc35bae3f1"/>
+</association>
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<type>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</type>
+</UML:Property>
+<UML:Operation id="779a98b7-2145-11f0-afc5-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>add</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="779fbba3-2145-11f0-8da2-b9dc35bae3f1"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="779fbba3-2145-11f0-8da2-b9dc35bae3f1">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>topo</val>
+</name>
+<ownerFormalParam>
+<ref refid="779a98b7-2145-11f0-afc5-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>Topografia</val>
+</typeValue>
+</UML:Parameter>
+<UML:Operation id="8473f3c0-2145-11f0-a522-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>remove</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="8478f12b-2145-11f0-a7f2-b9dc35bae3f1"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="8478f12b-2145-11f0-a7f2-b9dc35bae3f1">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>topo</val>
+</name>
+<ownerFormalParam>
+<ref refid="8473f3c0-2145-11f0-a522-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>Topografia</val>
+</typeValue>
+</UML:Parameter>
+<UML:Operation id="a0c476b6-2145-11f0-85a7-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ distribucionAgua(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="adc93c51-2145-11f0-bc44-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ distribucionTierra(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="d00ec171-2145-11f0-a088-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ proporcion(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="3018afcf-2146-11f0-9fbf-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ add(topo: Topografia): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="3a9bd91e-2146-11f0-91cf-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ remove(in topo: Topografia): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="461cf38a-2146-11f0-8d2d-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ distribucionAgua(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="4a901a5e-2146-11f0-a393-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ distribucionTierra(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="5c443191-2146-11f0-a3e0-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ add(topo: Topografia): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="675dd1b2-2146-11f0-bb58-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ remove(topo: Topografia): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="72618e63-2146-11f0-af03-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ distribucionAgua(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="81863966-2146-11f0-b2d0-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ distribucionTierra(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="999464d1-2146-11f0-a503-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val> + &lt;&lt;create&gt;&gt; Mixta(topo1: Topografia, topo2: Topografia, topo3: Topografia, topo4:Topografia): Topografia</val>
+</name>
+</UML:Operation>
+<UML:Operation id="a213c84f-2146-11f0-bdd0-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ remove(topo: Topografia): void;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="b96bf603-2146-11f0-acb9-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ distribucionAgua(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="be76f5ba-2146-11f0-8a70-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ distribucionTierra(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="d9deeaea-2146-11f0-8e82-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ proporcion(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="e4aa6cbe-2146-11f0-9b01-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ proporcion(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="e8de5793-2146-11f0-951a-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ proporcion(): Real;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="fe2dfc3c-2146-11f0-9bc2-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>compara</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="fe333e20-2146-11f0-877f-b9dc35bae3f1"/>
+<ref refid="14c616d8-2147-11f0-8f17-b9dc35bae3f1"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="fe333e20-2146-11f0-877f-b9dc35bae3f1">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>topo</val>
+</name>
+<ownerFormalParam>
+<ref refid="fe2dfc3c-2146-11f0-9bc2-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>Topografia</val>
+</typeValue>
+</UML:Parameter>
+<UML:Operation id="0fe272bc-2147-11f0-ad59-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ comparaConAgua(in topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Parameter id="14c616d8-2147-11f0-8f17-b9dc35bae3f1">
+<direction>
+<val>return</val>
+</direction>
+<ownerFormalParam>
+<ref refid="fe2dfc3c-2146-11f0-9bc2-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>String</val>
+</typeValue>
+</UML:Parameter>
+<UML:Operation id="26509fb6-2147-11f0-8cbd-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ comparaConTierra(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="3953d988-2147-11f0-8172-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ comparaConMixta(in topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="4e707585-2147-11f0-b4bc-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>comparaConAgua</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="4e764e59-2147-11f0-a6a6-b9dc35bae3f1"/>
+<ref refid="4e791f6e-2147-11f0-8a63-b9dc35bae3f1"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="4e764e59-2147-11f0-a6a6-b9dc35bae3f1">
+<direction>
+<val>return</val>
+</direction>
+<ownerFormalParam>
+<ref refid="4e707585-2147-11f0-b4bc-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>String</val>
+</typeValue>
+</UML:Parameter>
+<UML:Parameter id="4e791f6e-2147-11f0-8a63-b9dc35bae3f1">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>topo</val>
+</name>
+<ownerFormalParam>
+<ref refid="4e707585-2147-11f0-b4bc-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>Topografia</val>
+</typeValue>
+</UML:Parameter>
+<UML:Operation id="5a119fb3-2147-11f0-9525-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConTierra(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="642d9e78-2147-11f0-b894-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConMixta(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="7a96d01a-2147-11f0-b133-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ compara(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="86793479-2147-11f0-9606-b9dc35bae3f1">
+<class_>
+<ref refid="f3566c5d-2144-11f0-94ff-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ compara(topo: Topografia):  String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="a9697b8e-2147-11f0-92bc-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConTierra(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="b17039d5-2147-11f0-bbeb-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConAgua(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="b9a39a79-2147-11f0-acdc-b9dc35bae3f1">
+<class_>
+<ref refid="fa94b20d-2144-11f0-ae6f-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConMixta(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="c750f3d1-2147-11f0-ac18-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ compara(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="d1169144-2147-11f0-bfbb-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConTierra(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="d9d06dc8-2147-11f0-af17-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConAgua(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="e61606fc-2147-11f0-ab8d-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ comparaConMixta(topo: Topografia): String;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="f9339eb4-2147-11f0-b99e-b9dc35bae3f1">
+<interface_>
+<ref refid="9e680f42-2144-11f0-8b4e-b9dc35bae3f1"/>
+</interface_>
+<name>
+<val>+ getTopografias(): Topografia[*];</val>
+</name>
+</UML:Operation>
+<UML:Operation id="0290f652-2148-11f0-8c76-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>getTopografias</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="0296ca98-2148-11f0-9fbf-b9dc35bae3f1"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="0296ca98-2148-11f0-9fbf-b9dc35bae3f1">
+<direction>
+<val>return</val>
+</direction>
+<ownerFormalParam>
+<ref refid="0290f652-2148-11f0-8c76-b9dc35bae3f1"/>
+</ownerFormalParam>
+<typeValue>
+<val>Topografia</val>
+</typeValue>
+<upperValue>
+<val>*</val>
+</upperValue>
+<upperValue>
+<val>*</val>
+</upperValue>
+</UML:Parameter>
+<UML:Operation id="282347ce-2148-11f0-940a-b9dc35bae3f1">
+<class_>
+<ref refid="fec34294-2144-11f0-a54d-b9dc35bae3f1"/>
+</class_>
+<name>
+<val>+ add(in topo: Topografia): void;</val>
+</name>
+</UML:Operation>
+</model>
+</gaphor>
