@@ -98,7 +98,7 @@
 </UML:Class>
 <UML:ClassItem id="5cb555f5-23d0-11f0-bf6b-dbeadcea86c0">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, -53.690476264482626, 211.68620935624122)</val>
+<val>(1.0, 0.0, 0.0, 1.0, -53.690476264482626, 211.6862093562412)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -483,7 +483,7 @@
 </UML:Class>
 <UML:ClassItem id="27af023b-23d2-11f0-94bf-dbeadcea86c0">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 384.3494515124663, 223.1862093562412)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 337.84860202091454, 219.24952548597344)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -570,7 +570,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 219.44170277575358, 307.2398333651183)</val>
 </matrix>
 <points>
-<val>[(-160.4931592271696, 114.58768128331923), (164.90774873671262, 56.18516040440187)]</val>
+<val>[(-160.4931592271696, 114.58768128331923), (118.40689924516096, 52.24847653413411)]</val>
 </points>
 <head-connection>
 <ref refid="dc8caaa8-23d0-11f0-b82e-dbeadcea86c0"/>
@@ -609,7 +609,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 341.2030656295982, 338.15453046633877)</val>
 </matrix>
 <points>
-<val>[(-14.190824532214492, 84.20533281491123), (77.12688681520058, 27.031678889902423)]</val>
+<val>[(-14.190824532214492, 84.20533281491123), (30.626037323648802, 23.094995019634666)]</val>
 </points>
 <head-connection>
 <ref refid="e558cbbf-23d0-11f0-9849-dbeadcea86c0"/>
@@ -648,7 +648,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 493.38661718245316, 336.9907558111497)</val>
 </matrix>
 <points>
-<val>[(33.83594751481246, 84.83675883728779), (77.12688681520058, 28.195453545091482)]</val>
+<val>[(33.83594751481246, 84.83675883728779), (30.626037323648802, 24.258769674823725)]</val>
 </points>
 <head-connection>
 <ref refid="eb98522b-23d0-11f0-9d20-dbeadcea86c0"/>
@@ -687,7 +687,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 524.4350282382538, 338.2423155984761)</val>
 </matrix>
 <points>
-<val>[(209.85634886188268, 84.11754768277387), (79.91442327421237, 23.652014409952187)]</val>
+<val>[(209.85634886188268, 84.11754768277387), (33.413573782660706, 19.71533053968443)]</val>
 </points>
 <head-connection>
 <ref refid="f71f36d8-23d0-11f0-a38c-dbeadcea86c0"/>
@@ -729,10 +729,10 @@
 <ref refid="68615169-23d2-11f0-8f53-dbeadcea86c0"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 78.25976231841919, 232.84008727387246)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 78.25976231841919, 236.98428512285707)</val>
 </matrix>
 <points>
-<val>[(194.04976141709818, 22.085350718178887), (306.089689194047, 23.652014409952216)]</val>
+<val>[(194.04976141709818, 17.94115286919427), (259.58883970249536, 15.57113269069984)]</val>
 </points>
 <head-connection>
 <ref refid="5cb555f5-23d0-11f0-bf6b-dbeadcea86c0"/>
@@ -749,7 +749,7 @@
 </reflist>
 </memberEnd>
 <name>
-<val>sanguche</val>
+<val></val>
 </name>
 <ownedEnd>
 <reflist>
@@ -864,7 +864,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 524.9064669194304, 270.4651528301514)</val>
 </matrix>
 <points>
-<val>[(79.44298459303582, 23.652014409952187), (175.87957434033535, -9.828853297342107)]</val>
+<val>[(32.942135101484155, 19.71533053968443), (175.87957434033535, -9.828853297342107)]</val>
 </points>
 <head-connection>
 <ref refid="27af023b-23d2-11f0-94bf-dbeadcea86c0"/>
@@ -880,6 +880,9 @@
 <ref refid="87a312d0-23d2-11f0-92d3-dbeadcea86c0"/>
 </reflist>
 </memberEnd>
+<name>
+<val>ingredientes 0..*</val>
+</name>
 <ownedEnd>
 <reflist>
 <ref refid="87a2fb1b-23d2-11f0-8d1c-dbeadcea86c0"/>
@@ -956,25 +959,9 @@
 <ref refid="5cb2679b-23d0-11f0-9afe-dbeadcea86c0"/>
 </class_>
 <name>
-<val>construir</val>
+<val>+ construir(sanguche: Sanguche);</val>
 </name>
-<ownedParameter>
-<reflist>
-<ref refid="bc7dec8a-23d2-11f0-b0dd-dbeadcea86c0"/>
-</reflist>
-</ownedParameter>
 </UML:Operation>
-<UML:Parameter id="bc7dec8a-23d2-11f0-b0dd-dbeadcea86c0">
-<direction>
-<val>return</val>
-</direction>
-<ownerFormalParam>
-<ref refid="bc74a4cf-23d2-11f0-b933-dbeadcea86c0"/>
-</ownerFormalParam>
-<typeValue>
-<val>Sanguche</val>
-</typeValue>
-</UML:Parameter>
 <UML:Comment id="05118905-23d3-11f0-a4f2-dbeadcea86c0">
 <body>
 <val>Builder</val>
@@ -1017,7 +1004,7 @@
 </UML:Comment>
 <UML:CommentItem id="09473152-23d3-11f0-836c-dbeadcea86c0">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, -23.033217430114753, 563.9424948813052)</val>
+<val>(1.0, 0.0, 0.0, 1.0, -33.690476264482605, 556.3465977590408)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -1167,7 +1154,7 @@
 </UML:Comment>
 <UML:CommentItem id="25501846-23d3-11f0-a2c4-dbeadcea86c0">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 751.5064657845277, 563.9424948813052)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 745.7153800136241, 556.3465977590408)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
