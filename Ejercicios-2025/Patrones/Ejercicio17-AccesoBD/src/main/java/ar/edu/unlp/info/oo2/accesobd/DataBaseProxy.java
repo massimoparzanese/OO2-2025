@@ -24,7 +24,7 @@ public class DataBaseProxy implements DatabaseAccess{
 		
 	}
 	
-	public boolean checkAccess() {
+	private boolean checkAccess() {
 		return true;
 	}
 }

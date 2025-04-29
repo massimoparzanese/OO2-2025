@@ -423,7 +423,7 @@
 <ref refid="2d938f6a-2553-11f0-81c9-89c12545770c"/>
 </class_>
 <name>
-<val>+ checkAccess(): Boolean;</val>
+<val>- checkAccess(): Boolean;</val>
 </name>
 </UML:Operation>
 </model>
