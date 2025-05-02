@@ -54,13 +54,13 @@
 <ownedPresentation>
 <reflist>
 <ref refid="b26366b4-245b-11f0-87b2-21e618e3feba"/>
+<ref refid="7031b9e5-245c-11f0-9d12-21e618e3feba"/>
 <ref refid="d9844918-245c-11f0-bb10-21e618e3feba"/>
 <ref refid="e0af8bd4-245c-11f0-82f4-21e618e3feba"/>
 <ref refid="e475c559-245c-11f0-aef5-21e618e3feba"/>
 <ref refid="776d2fed-245d-11f0-b98c-21e618e3feba"/>
 <ref refid="bac91ad4-245d-11f0-a2d2-21e618e3feba"/>
 <ref refid="271b688a-2794-11f0-aa56-d548ac447cc8"/>
-<ref refid="7031b9e5-245c-11f0-9d12-21e618e3feba"/>
 <ref refid="a4529472-2794-11f0-8ef2-d548ac447cc8"/>
 <ref refid="3f99e4ad-245d-11f0-8de0-21e618e3feba"/>
 <ref refid="41983019-245d-11f0-a821-21e618e3feba"/>
@@ -101,7 +101,7 @@
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>478.0</val>
+<val>529.0</val>
 </width>
 <height>
 <val>108.0</val>
@@ -117,6 +117,9 @@
 <class_>
 <ref refid="703080c9-245c-11f0-bab7-21e618e3feba"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>+ crearProcesador();</val>
 </name>
@@ -125,6 +128,9 @@
 <class_>
 <ref refid="703080c9-245c-11f0-bab7-21e618e3feba"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>+ crearGabinete();</val>
 </name>
@@ -133,6 +139,9 @@
 <class_>
 <ref refid="703080c9-245c-11f0-bab7-21e618e3feba"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>+ crearMemoria();</val>
 </name>
@@ -141,6 +150,9 @@
 <class_>
 <ref refid="703080c9-245c-11f0-bab7-21e618e3feba"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>+ crearAlmacenamiento();</val>
 </name>
@@ -149,6 +161,9 @@
 <class_>
 <ref refid="703080c9-245c-11f0-bab7-21e618e3feba"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>+ crearGráfica();</val>
 </name>
@@ -158,7 +173,7 @@
 <ref refid="b261cb11-245b-11f0-8d1a-21e618e3feba"/>
 </class_>
 <name>
-<val>+ crearEquipo(equipo: Equipo): Computadora;</val>
+<val>+ crearEquipo(equipo: EquipoBuilder): Computadora;</val>
 </name>
 </UML:Operation>
 <UML:Class id="703080c9-245c-11f0-bab7-21e618e3feba">
@@ -677,10 +692,10 @@
 <ref refid="85a43d08-245d-11f0-89ed-21e618e3feba"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 568.2405378728388, 248.96263499847726)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 568.2405378728388, 253.15154253236048)</val>
 </matrix>
 <points>
-<val>[(47.419679412317464, 6.038798396372243), (125.41009689278621, 14.19125853513043)]</val>
+<val>[(47.419679412317464, 1.8498908624890191), (125.41009689278621, 10.002351001247206)]</val>
 </points>
 <head-connection>
 <ref refid="7031b9e5-245c-11f0-9d12-21e618e3feba"/>
@@ -727,7 +742,7 @@
 <ref refid="703080c9-245c-11f0-bab7-21e618e3feba"/>
 </type>
 <visibility>
-<val>private</val>
+<val>protected</val>
 </visibility>
 </UML:Property>
 <UML:Property id="85a43d08-245d-11f0-89ed-21e618e3feba">
@@ -957,7 +972,7 @@
 <val>Computadora</val>
 </typeValue>
 <visibility>
-<val>private</val>
+<val>protected</val>
 </visibility>
 </UML:Property>
 <UML:Class id="271a5749-2794-11f0-b1b0-d548ac447cc8">
@@ -1223,7 +1238,7 @@
 <ref refid="b261cb11-245b-11f0-8d1a-21e618e3feba"/>
 </class_>
 <name>
-<val>+ crearPresupuesto(equipo: Equipo, nombre: String): Presupuesto;</val>
+<val>+ crearPresupuesto(equipo: EquipoBuilder, nombre: String): Presupuesto;</val>
 </name>
 </UML:Operation>
 </model>
