@@ -546,7 +546,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <name>
-<val>- id: String;</val>
+<val># id: String;</val>
 </name>
 </UML:Property>
 <UML:Property id="635410e8-2c78-11f0-9029-3c7c3f80838d">
@@ -554,7 +554,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <name>
-<val>- fechaNacimiento: Date;</val>
+<val># fechaNacimiento: Date;</val>
 </name>
 </UML:Property>
 <UML:Property id="66cc73bb-2c78-11f0-bdb3-3c7c3f80838d">
@@ -568,7 +568,7 @@
 <val>String</val>
 </typeValue>
 <visibility>
-<val>private</val>
+<val>protected</val>
 </visibility>
 </UML:Property>
 <UML:AssociationItem id="6f00f464-2c78-11f0-8eb7-3c7c3f80838d">
@@ -611,7 +611,7 @@
 </reflist>
 </memberEnd>
 <name>
-<val>- madre</val>
+<val># madre</val>
 </name>
 <ownedEnd>
 <reflist>
@@ -692,7 +692,7 @@
 </reflist>
 </memberEnd>
 <name>
-<val>- padre</val>
+<val># padre</val>
 </name>
 <ownedEnd>
 <reflist>
