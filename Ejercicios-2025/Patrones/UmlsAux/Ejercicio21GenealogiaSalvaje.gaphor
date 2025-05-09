@@ -106,7 +106,7 @@
 </UML:Class>
 <UML:ClassItem id="e1ba3b48-2c76-11f0-b119-3c7c3f80838d">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 285.0, 218.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 235.0, 223.0)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -129,7 +129,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ getIdentificador(): String;</val>
@@ -140,7 +140,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ setIdentificador(id: String);</val>
@@ -151,7 +151,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ getEspecie(): String;</val>
@@ -162,7 +162,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ setEspecie(especie: String);</val>
@@ -184,7 +184,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ setFechaDeNacimiento(fecha: Date);</val>
@@ -217,7 +217,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ setPadre(padre: AbstractMamifero);</val>
@@ -228,7 +228,7 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </class_>
 <isAbstract>
-<val>1</val>
+<val>0</val>
 </isAbstract>
 <name>
 <val>+ setMadre(madre: AbstractMamifero)'</val>
@@ -298,6 +298,23 @@
 <name>
 <val>Mamifero</val>
 </name>
+<ownedOperation>
+<reflist>
+<ref refid="bffc3b85-2d29-11f0-b3c1-3c7c3f80838d"/>
+<ref refid="fc97ab69-2d29-11f0-9d1b-3c7c3f80838d"/>
+<ref refid="0e06a522-2d2a-11f0-8847-3c7c3f80838d"/>
+<ref refid="277383aa-2d2a-11f0-8a52-3c7c3f80838d"/>
+<ref refid="2cc5cadd-2d2a-11f0-99ad-3c7c3f80838d"/>
+<ref refid="3c305689-2d2a-11f0-8d10-3c7c3f80838d"/>
+<ref refid="43349353-2d2a-11f0-9e20-3c7c3f80838d"/>
+<ref refid="4d39b534-2d2a-11f0-bb0c-3c7c3f80838d"/>
+<ref refid="5683c974-2d2a-11f0-b46a-3c7c3f80838d"/>
+<ref refid="5f2ba78c-2d2a-11f0-8f64-3c7c3f80838d"/>
+<ref refid="670adf1c-2d2a-11f0-bfbb-3c7c3f80838d"/>
+<ref refid="710e9c12-2d2a-11f0-b8cc-3c7c3f80838d"/>
+<ref refid="8c066a78-2d2a-11f0-9d4d-3c7c3f80838d"/>
+</reflist>
+</ownedOperation>
 <owningPackage>
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
 </owningPackage>
@@ -312,16 +329,16 @@
 </UML:Class>
 <UML:ClassItem id="f1320ca9-2c77-11f0-b23d-3c7c3f80838d">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 161.0, 713.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 39.5, 705.0)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>100.0</val>
+<val>411.0</val>
 </width>
 <height>
-<val>58.0</val>
+<val>292.0</val>
 </height>
 <diagram>
 <ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -347,7 +364,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 378.0, 532.7459874483109)</val>
 </matrix>
 <points>
-<val>[(-156.0, 180.25401255168913), (-14.0, 67.25401255168913)]</val>
+<val>[(-87.78999999999996, 172.25401255168913), (-64.0, 72.25401255168913)]</val>
 </points>
 <head-connection>
 <ref refid="f1320ca9-2c77-11f0-b23d-3c7c3f80838d"/>
@@ -378,6 +395,20 @@
 <name>
 <val>MamiferoDesconocido</val>
 </name>
+<ownedOperation>
+<reflist>
+<ref refid="98bcbd1e-2d2a-11f0-888c-3c7c3f80838d"/>
+<ref refid="9f61d5c9-2d2a-11f0-b37e-3c7c3f80838d"/>
+<ref refid="a39ee677-2d2a-11f0-a341-3c7c3f80838d"/>
+<ref refid="da507101-2d2a-11f0-8876-3c7c3f80838d"/>
+<ref refid="e2323ad6-2d2a-11f0-ba8f-3c7c3f80838d"/>
+<ref refid="e90cd3bf-2d2a-11f0-81c7-3c7c3f80838d"/>
+<ref refid="f01e83b0-2d2a-11f0-b9c6-3c7c3f80838d"/>
+<ref refid="f6b7807f-2d2a-11f0-8d54-3c7c3f80838d"/>
+<ref refid="fbf8dfe3-2d2a-11f0-88fc-3c7c3f80838d"/>
+<ref refid="0d3196ac-2d2b-11f0-942c-3c7c3f80838d"/>
+</reflist>
+</ownedOperation>
 <owningPackage>
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
 </owningPackage>
@@ -392,16 +423,16 @@
 </UML:Class>
 <UML:ClassItem id="feaa4509-2c77-11f0-8dde-3c7c3f80838d">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 504.5, 713.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 540.0, 737.0)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>163.0</val>
+<val>411.0</val>
 </width>
 <height>
-<val>58.0</val>
+<val>238.0</val>
 </height>
 <diagram>
 <ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -427,7 +458,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 586.0, 536.7459874483109)</val>
 </matrix>
 <points>
-<val>[(26.0, 176.25401255168913), (-14.0, 63.25401255168913)]</val>
+<val>[(225.05828220858893, 200.25401255168913), (-64.0, 68.25401255168913)]</val>
 </points>
 <head-connection>
 <ref refid="feaa4509-2c77-11f0-8dde-3c7c3f80838d"/>
@@ -461,7 +492,7 @@
 </UML:Comment>
 <UML:CommentItem id="06a3069b-2c78-11f0-ba20-3c7c3f80838d">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 683.0, 650.2379623449325)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 793.0, 641.2379623449325)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -563,7 +594,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 705.0, 511.4919748966216)</val>
 </matrix>
 <points>
-<val>[(-9.0, -3.0), (165.0, -3.0), (165.0, -160.0), (-9.0, -160.0)]</val>
+<val>[(-59.0, 2.0), (165.0, -3.0), (165.0, -160.0), (-59.0, -155.0)]</val>
 </points>
 <head-connection>
 <ref refid="e1ba3b48-2c76-11f0-b119-3c7c3f80838d"/>
@@ -644,7 +675,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 697.0, 540.4919748966216)</val>
 </matrix>
 <points>
-<val>[(-1.0, 0.0), (86.0, 0.0), (86.0, -124.0), (-1.0, -124.0)]</val>
+<val>[(-51.0, 5.0), (86.0, 0.0), (86.0, -124.0), (-51.0, -119.0)]</val>
 </points>
 <head-connection>
 <ref refid="e1ba3b48-2c76-11f0-b119-3c7c3f80838d"/>
@@ -702,5 +733,189 @@
 <ref refid="e1b9fccd-2c76-11f0-9699-3c7c3f80838d"/>
 </type>
 </UML:Property>
+<UML:Operation id="bffc3b85-2d29-11f0-b3c1-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setIdentificador(id: String);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="fc97ab69-2d29-11f0-9d1b-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getFechaDeNacimiento(): Date;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="0e06a522-2d2a-11f0-8847-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setFechaDeNacimiento(fecha: Date);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="277383aa-2d2a-11f0-8a52-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getPadre(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="2cc5cadd-2d2a-11f0-99ad-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getMadre(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="3c305689-2d2a-11f0-8d10-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setPadre(padre: AbstractMamifero);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="43349353-2d2a-11f0-9e20-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setMadre(madre: AbstractMamifero);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="4d39b534-2d2a-11f0-bb0c-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbueloMaterno(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="5683c974-2d2a-11f0-b46a-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbuelaMaterna(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="5f2ba78c-2d2a-11f0-8f64-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbueloPaterno(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="670adf1c-2d2a-11f0-bfbb-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbuelaPaterna(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="710e9c12-2d2a-11f0-b8cc-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ tieneComoAncestroA(unMamifero: AbstractMamifero): Boolean;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="8c066a78-2d2a-11f0-9d4d-3c7c3f80838d">
+<class_>
+<ref refid="f131d379-2c77-11f0-887a-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setEspecie(especie: String);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="98bcbd1e-2d2a-11f0-888c-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getFechaDeNacimiento(): Date;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="9f61d5c9-2d2a-11f0-b37e-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getPadre(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="a39ee677-2d2a-11f0-a341-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getMadre(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="da507101-2d2a-11f0-8876-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setMadre(madre: AbstractMamifero);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="e2323ad6-2d2a-11f0-ba8f-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ setPadre(padre: AbstractMamifero);</val>
+</name>
+</UML:Operation>
+<UML:Operation id="e90cd3bf-2d2a-11f0-81c7-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbueloMaterno(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="f01e83b0-2d2a-11f0-b9c6-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbuelaMaterna(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="f6b7807f-2d2a-11f0-8d54-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbueloPaterno(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="fbf8dfe3-2d2a-11f0-88fc-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ getAbuelaPaterna(): AbstractMamifero;</val>
+</name>
+</UML:Operation>
+<UML:Operation id="0d3196ac-2d2b-11f0-942c-3c7c3f80838d">
+<class_>
+<ref refid="fea9fcf4-2c77-11f0-b472-3c7c3f80838d"/>
+</class_>
+<name>
+<val>+ tieneComoAncestroA(unMamifero: AbstractMamifero): Boolean;</val>
+</name>
+</UML:Operation>
 </model>
 </gaphor>
