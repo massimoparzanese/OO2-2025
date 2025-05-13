@@ -7,33 +7,20 @@ import java.util.SortedSet;
 
 public class GestorNumerosDisponibles {
 	private SortedSet<String> lineas = new TreeSet<String>();
-	private String tipoGenerador = "ultimo";
+	private Generador tipoGenerador = new UltimoGenerador();
 
 	public SortedSet<String> getLineas() {
 		return lineas;
 	}
 
 	public String obtenerNumeroLibre() {
-		String linea;
-		switch (tipoGenerador) {
-			case "ultimo":
-				linea = lineas.last();
-				lineas.remove(linea);
-				return linea;
-			case "primero":
-				linea = lineas.first();
-				lineas.remove(linea);
-				return linea;
-			case "random":
-				linea = new ArrayList<String>(lineas)
-						.get(new Random().nextInt(lineas.size()));
-				lineas.remove(linea);
-				return linea;
-		}
-		return null;
+		String linea = tipoGenerador.obtenerLibre(this);
+		lineas.remove(linea);
+		return linea;
 	}
 
-	public void cambiarTipoGenerador(String valor) {
+	public void cambiarTipoGenerador(Generador valor) {
 		this.tipoGenerador = valor;
 	}
+
 }
