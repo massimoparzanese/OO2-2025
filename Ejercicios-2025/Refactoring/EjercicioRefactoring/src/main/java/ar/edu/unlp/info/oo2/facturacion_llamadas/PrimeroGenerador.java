@@ -6,7 +6,6 @@ import java.util.Random;
 public class PrimeroGenerador implements Generador{
 
     public String obtenerLibre(GestorNumerosDisponibles gestor){
-        return new ArrayList<String>(gestor.getLineas())
-                .get(new Random().nextInt(gestor.getLineas().size()));
+        return gestor.getLineas().first();
     }
 }

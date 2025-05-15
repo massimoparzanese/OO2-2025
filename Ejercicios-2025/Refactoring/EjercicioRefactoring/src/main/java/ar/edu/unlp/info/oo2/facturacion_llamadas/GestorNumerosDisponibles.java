@@ -12,11 +12,16 @@ public class GestorNumerosDisponibles {
 	public SortedSet<String> getLineas() {
 		return lineas;
 	}
-
+	public boolean contiene(String str){
+		return this.lineas.contains(str);
+	}
 	public String obtenerNumeroLibre() {
 		String linea = tipoGenerador.obtenerLibre(this);
 		lineas.remove(linea);
 		return linea;
+	}
+	public boolean add(String number){
+		return this.lineas.add(number);
 	}
 
 	public void cambiarTipoGenerador(Generador valor) {
