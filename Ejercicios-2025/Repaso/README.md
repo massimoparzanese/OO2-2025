@@ -1,0 +1,1 @@
+### En esta carpeta se encuentran ejercicios de cualquiera de las 3 prácticas de 2025 rehechos
