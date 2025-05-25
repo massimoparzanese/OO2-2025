@@ -1,0 +1,62 @@
+may 25, 2025 12:34:31 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:31 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:32 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:32 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:32 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:32 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:32 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:33 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:33 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:33 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:33 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:33 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI$1 insertUpdate
+INFORMACIÓN: Se agregó texto a la publicación
+may 25, 2025 12:34:37 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$2
+INFORMACIÓN: Se la marco como destacada a la publicacion
+may 25, 2025 12:34:42 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:34:43 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:34:45 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFORMACIÓN: Se le dio dislike a la publicacion
+may 25, 2025 12:34:45 P. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl dislike
+ADVERTENCIA: Se llego a 0 likes
+may 25, 2025 12:34:45 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFORMACIÓN: Se le dio dislike a la publicacion
+may 25, 2025 12:34:47 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$1
+INFORMACIÓN: Se le dio dislike a la publicacion
+may 25, 2025 12:36:26 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:27 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:27 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:28 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:28 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:28 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:29 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:29 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:29 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:29 P. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl like
+ADVERTENCIA: Se llego a 10 likes
+may 25, 2025 12:36:29 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
+may 25, 2025 12:36:30 P. M. ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI lambda$0
+INFORMACIÓN: Se le dio like a la publicacion
