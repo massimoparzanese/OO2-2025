@@ -1,0 +1,40 @@
+1.  public class Cliente {
+2.      private String nombre;
+3.      private String tipo;
+4.      private List<Compra> compras;
+5.      public Cliente(String unNombre) {
+6.          this.nombre = unNombre;
+7.          this.tipo = "basico";
+8.          this.compras = new ArrayList<Compra>();
+9.      }
+10.     public Compra comprar(List<Producto> productos) {
+11.         double temp1 = 0;
+12.         if (this.tipo.equals("basico")) {
+13.             temp1 = 0.1;
+14.         } else if (this.tipo.equals("premium")) {
+15.             temp1 = 0.05;
+16.         } else if (this.tipo.equals("advance")) {
+17.             temp1 = 0;
+18.         }
+19.         double subtotal = productos.stream().mapToDouble(p -> p.getPrecio()).sum();
+20.         double costoEnvio = subtotal * temp1;
+21.         Compra n = new Compra(productos, subtotal, costoEnvio);
+22.         this.compras.add(n);
+23.         if (this.montoAcumuladoEnCompras() > 10000) {
+24.             this.tipo = "advance";
+25.         } else if (this.montoAcumuladoEnCompras() > 5000) {
+26.             this.tipo = "premium";
+27.         }
+28.         return n;
+29.     }
+30.     public double montoAcumuladoEnCompras() { ... }
+31. }
+32. public class Compra {
+33.     private List<Producto> productos;
+34.     private double subtotal;
+35.     private double envio;
+36.     private String estado;
+37. }
+38. public class Producto {
+39.     private String descripcion;
+40.}

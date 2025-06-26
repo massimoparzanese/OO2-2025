@@ -1,0 +1,26 @@
+1.  public class Videojuego {
+2.      // ...
+3.      // ...
+4.      public Personaje personajeConMasDaño() {
+5.          Personaje temp = null;
+6.          double max = 0;
+7.          for (Personaje p : personajes) {
+8.              double daño = p.getTipoAtaque().calcularDaño(p.getDaño());
+9.              if (daño > max) {
+10.                 temp = p;
+11.                 max = daño;
+12.             }
+13.         }
+14.         return temp;
+15.     }
+16.     public void imprimirInfo(Personaje p) {
+17.         System.out.println(p.getNombre() + " tiene como daño " + p.getDaño());
+18.         if (p.getTipoAtaque().getClass() == AtaqueHechizo.class) {
+19.             System.out.println("Ataque tipo hechizo");
+20.             System.out.println("Este ataque dobla tu fuerza");
+21.         } else {
+22.             System.out.println("Ataque tipo Ataque Básico");
+23.             System.out.println("Este ataque mantiene tu fuerza");
+24.         }
+25.     }
+26. }
