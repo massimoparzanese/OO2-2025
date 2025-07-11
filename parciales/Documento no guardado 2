@@ -1,0 +1,104 @@
+Bad smell: switch statement (linea  6 a 43, teniendo dos tipos de documento)
+Refactoring: replace switch statement with strategy
+Paso 1) Creo una clase TipoDocumento abstracta. Creo dos clases PDF y EXCEL subclases que extiendan de TipoDocumento. 
+Paso 2) Creo un metodo abstracto exportar(ReportGenerator report, Documento documento), y muevo la implementacion de 7 a 24 al metodo exportar de la clase PDF y la implementacion de 27 a 43 al metodo exportar de la clase EXCEL
+Paso 3) Reemplazo el tipo de la variable type de la clase ReportGenerator: String a TipoDocumento, pongo el setter para esa variable, y reemplazo el if en la clase ReportGenerator por la invocación al método type.exportar(this, documento).
+
+public class ReportGenerator {
+ private TipoDocumento type ;
+ el setter
+
+ public void ( doc) 
+    type.exportar(this,doc)
+}
+
+public abstract class TipoDocumento 
+abstracto exportar(ReportGenerator report, Documento documento)
+
+public class PDF extends TipoDocumento
+ exportar(ReportGenerator report, Documento documento){
+todo el codigo desde la linea 7 a la linea 24)
+}
+
+public class EXCEL extends TipoDocumento
+ exportar(ReportGenerator report, Documento documento){
+todo el codigo desde la linea 26 a la linea 43)
+}
+
+Bad smell: duplicated code (en el metodo exportar de las subclases de TipoDocumento)
+Refactoring: introduce form template method
+Paso 1) creo un método configurarMetadatos: en la clase PDF extraigo las lineas 15 y 16, y en la EXCEL las lineas 34 y 35. Reemplazo por la invocacion dentro del metodo exportar
+Paso 2) creo un metodo configurarExportador: en la clase PDF extraigo las lineas 19 y 20, y en la EXCEL las lineas 38 y 39. Reemplazo por la invocacion dentro del metodo exportar
+[ 
+
+public class PDF extends TipoDocumento
+ exportar(ReportGenerator report, Documento documento){
+    lineas 9 a 14
+    this.configurarMetadatos()
+    this.configurarExportador()
+    linea 21
+}
+
+public class EXCEL extends TipoDocumento
+ exportar(ReportGenerator report, Documento documento){
+    lineas 27 a 32
+    this.configurarMetadatos()
+    this.configurarExportador()
+    linea 43
+}
+
+
+]
+
+Paso 3) Subo el método exportar, que está duplicado en las subclases, a la superclase. Acá ya queda el template method 
+public abstract class TipoDocumento
+ exportar(ReportGenerator report, Documento documento){
+    lineas 9 a 14 o 27 a 32
+    this.configurarMetadatos()
+    this.configurarExportador()
+    linea 21 o 43
+}
+
+abstract configurarMetadatos()
+abstract configurarExportador()
+
+---
+
+public class EXCEL extends TipoDocumento
+ this.configurarMetadatos() { linea 34 y 35)
+    this.configurarExportador() { linea 38 y 39)
+
+--
+
+
+Bad smell: Reinventa la rueda
+Refactoring: replace loop with pipeline
+
+Reemplazo las líneas que hacen lo del for de los authores por un stream que los concatena
+
+Codigo final:
+
+public abstract class TipoDocumento <<Strategy>>
+ exportar(ReportGenerator report, Documento documento){ <<template method>>
+    Document docFIle = new DocumentFile(); 
+    docFile.setTile
+    String authors = el stream
+    this.configurarMetadatos(docFIle)
+    this.configurarExportador(docFile)
+    report.saveExportedFile(docFile)
+}
+
+abstract configurarMetadatos()
+abstract configurarExportador()
+
+
+ public class ReportGenerator {
+ private TipoDocumento type ;
+ el setter
+
+ public void ( doc) 
+    type.exportar(this,doc)
+}
+
+
+

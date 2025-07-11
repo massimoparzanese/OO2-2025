@@ -1,0 +1,13 @@
+obtenerNombreAutores()
+String authors = ""
+for (... ) do
+   authors+= xd .. 
+return autores;
+
+return ..streams().map() .. 
+
+algo.set(obtenerNombreAutores())
+
+
+
+
